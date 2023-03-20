@@ -14,7 +14,7 @@
     - [A Classification Technique based on Exploratory Data Analysis for Activity Recognition](https://abc-research.github.io/2022/#:~:text=A%20Classification%20Technique%20based%20on%20Exploratory%20Data,Kiyokawa%20(Nara%20Institute%20of%20Science%20and%20Technology))
 - (conference/publications)33rd International Symposium on Space Technology and Science
     - [Development of an Evaluation Method for Sample Return Capsule Parachute using Numerical Analysis and Wind Tunnel Tests](https://confit.atlas.jp/guide/event/ists2021/subject/E-3-01/advanced)
-- (学会)The Symposium on Astrodynamics for Space Missions (Fiscal Year 2021)
+- (conference)The Symposium on Astrodynamics for Space Missions (Fiscal Year 2021)
     - [3D Shape Reconstruction for Parachute Evaluation Using a Low-Speed Wind Tunnel](https://jaxa.repo.nii.ac.jp/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=48617&item_no=1&page_id=13&block_id=21)
 
 ## Internships/Part-time Jobs
