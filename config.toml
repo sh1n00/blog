@@ -1,5 +1,5 @@
 baseURL = "http://www.example.com"
-title = "sh1n00's blog"
+title = "sh1n00's portfolio"
 theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -12,13 +12,12 @@ enableEmoji = true
 style = "github-dark"
 
 [params]
-author = "Riku Shinohara"
-# license = '<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA-4.0</a>'
-description = "sh1n00's personal blog"
-keywords = "blog,developer,personal"
-info = ["backend"]
-avatarURL = "images/avatar.jpg"
-#gravatar = "john.doe@example.com"
+author = "sh1n00's portfolio"
+description = "sh1n00's portfolio"
+keywords = "developer,personal"
+info = ["engineer"]
+avatarURL = "images/icon.jpg"
+# gravatar = "rinjyou0031@toki.waseda.jp"
 dateFormat = "January 2, 2006"
 since = 2023
 # Git Commit in Footer, uncomment the line below to enable it
@@ -124,87 +123,56 @@ icon = "fa fa-2x fa-github"
 weight = 1
 url = "https://github.com/sh1n00/"
 
-# [[params.social]]
-# name = "Gitlab"
-# icon = "fa fa-2x fa-gitlab"
-# weight = 2
-# url = "https://gitlab.com/johndoe/"
-
 [[params.social]]
 name = "Twitter"
 icon = "fa fa-2x fa-twitter"
 weight = 3
-url = "https://twitter.com/johndoe/"
-
-[[params.social]]
-name = "LinkedIn"
-icon = "fa fa-2x fa-linkedin"
-weight = 4
-url = "https://www.linkedin.com/in/johndoe/"
-
-[[params.social]]
-name = "Medium"
-icon = "fa fa-2x fa-medium"
-weight = 5
-url = "https://medium.com/@johndoe"
-
-[[params.social]]
-name = "RSS"
-icon = "fa fa-2x fa-rss"
-weight = 6
-url = "https://myhugosite.com/index.xml"
-rel = "alternate"
-type = "application/rss+xml"
+url = "https://twitter.com/Shinori0425"
 
 [languages.en]
-languageName = ":uk:"
+languageName = ":jp:"
 
 [[languages.en.menu.main]]
 name = "About"
-weight = 1
+weight = 3
 url = "about/"
 
 [[languages.en.menu.main]]
 name = "Blog"
-weight = 2
+weight = 3
 url = "posts/"
 
 [[languages.en.menu.main]]
-name = "Projects"
+name = "Career"
 weight = 3
-url = "projects/"
+url = "career/"
 
 [[languages.en.menu.main]]
-name = "Contact me"
+name = "Contact"
 weight = 5
 url = "contact/"
 
 [languages.pt-br]
 languageName = ":us:"
-title = "João Ninguém"
+title = "sh1n00's portfolio"
 
 [languages.pt-br.params]
-author = "João Ninguém"
-info = "Full Stack DevOps e Mágico"
-description = "Sítio pessoal de João Ninguém"
-keywords = "blog,desenvolvedor,pessoal"
+author = "sh1n00"
+info = "エンジニア"
+description = ""
+keywords = ""
 
 [[languages.pt-br.menu.main]]
-name = "Sobre"
+name = "自己紹介"
 weight = 1
 url = "about/"
 
 [[languages.pt-br.menu.main]]
-name = "Blog"
-weight = 2
-url = "posts/"
-
-[[languages.pt-br.menu.main]]
-name = "Projetos"
+name = "経歴"
 weight = 3
-url = "projects/"
+url = "career/"
 
 [[languages.pt-br.menu.main]]
-name = "Contato"
+name = "連絡先"
 weight = 5
 url = "contact/"
