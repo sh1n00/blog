@@ -1,24 +1,26 @@
-baseURL = "http://www.example.com"
+baseURL = "https://sh1n00.com"
 title = "sh1n00's portfolio"
 theme = "hugo-coder"
-languageCode = "en"
-defaultContentLanguage = "en"
+languageCode = "ja"
+defaultContentLanguage = "ja"
 paginate = 20
 enableEmoji = true
 # Enable Disqus comments
-# disqusShortname = "yourdiscussshortname"
+disqusShortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
 
 [params]
-author = "sh1n00's portfolio"
+author = "sh1n00"
 description = "sh1n00's portfolio"
 keywords = "developer,personal"
-info = ["engineer"]
+info = ["バックエンドエンジニア"]
 avatarURL = "images/icon.jpg"
-# gravatar = "rinjyou0031@toki.waseda.jp"
-dateFormat = "January 2, 2006"
+# TODO faviconの設定
+# favicon_32 = "/img/favicon.png"
+# favicon_16 = "/img/favicon.png"
+
 since = 2023
 # Git Commit in Footer, uncomment the line below to enable it
 commit = "https://github.com/luizdepra/hugo-coder/tree/"
@@ -129,50 +131,41 @@ icon = "fa fa-2x fa-twitter"
 weight = 3
 url = "https://twitter.com/Shinori0425"
 
+[languages.ja]
+languageName = ":us:"
+title = "sh1n00's portfolio"
+
+[[languages.ja.menu.main]]
+name = "ブログ"
+weight = 1
+url = "posts/"
+
+[[languages.ja.menu.main]]
+name = "経歴"
+weight = 2
+url = "career/"
+
+[[languages.ja.menu.main]]
+name = "連絡"
+weight = 3
+url = "contact/"
+
 [languages.en]
 languageName = ":jp:"
+title = "sh1n00's portfolio"
 
-[[languages.en.menu.main]]
-name = "About"
-weight = 3
-url = "about/"
-
-[[languages.en.menu.main]]
-name = "Blog"
-weight = 3
-url = "posts/"
+[languages.en.params]
+author = "sh1n00"
+info = "engineer"
+description = ""
+keywords = ""
 
 [[languages.en.menu.main]]
 name = "Career"
-weight = 3
+weight = 1
 url = "career/"
 
 [[languages.en.menu.main]]
 name = "Contact"
-weight = 5
-url = "contact/"
-
-[languages.pt-br]
-languageName = ":us:"
-title = "sh1n00's portfolio"
-
-[languages.pt-br.params]
-author = "sh1n00"
-info = "エンジニア"
-description = ""
-keywords = ""
-
-[[languages.pt-br.menu.main]]
-name = "自己紹介"
-weight = 1
-url = "about/"
-
-[[languages.pt-br.menu.main]]
-name = "経歴"
-weight = 3
-url = "career/"
-
-[[languages.pt-br.menu.main]]
-name = "連絡先"
-weight = 5
+weight = 2
 url = "contact/"
