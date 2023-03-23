@@ -9,6 +9,7 @@ enableEmoji = true
 disqusShortname = "yourdiscussshortname"
 googleAnalytics = 'G-YC6EG4Q1ZX'
 
+
 [markup.highlight]
 style = "github-dark"
 
@@ -146,6 +147,16 @@ url = "career/"
 name = "連絡"
 weight = 3
 url = "contact/"
+
+[[languages.ja.menu.main]]
+name = "カテゴリー"
+weight = 4
+url = "categories/"
+
+[[languages.ja.menu.main]]
+name = "タグ"
+weight = 5
+url = "tags/"
 
 [languages.en]
 languageName = ":jp:"
