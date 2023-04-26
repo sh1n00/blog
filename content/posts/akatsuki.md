@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2022-07-30
 title = "アカツキゲームスインターンに参加してきた!"
 description = "インターン"
