@@ -9,6 +9,9 @@ enableEmoji = true
 disqusShortname = "yourdiscussshortname"
 googleAnalytics = 'G-YC6EG4Q1ZX'
 
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
 
 [markup.highlight]
 style = "github-dark"
@@ -17,8 +20,9 @@ style = "github-dark"
 author = "sh1n00"
 description = "sh1n00's portfolio"
 keywords = "developer,personal"
-info = ["バックエンドエンジニア"]
+info = ["ゲームエンジニア"]
 avatarURL = "images/icon.jpg"
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
 # TODO faviconの設定
 # favicon_32 = "/img/favicon.png"
 # favicon_16 = "/img/favicon.png"
@@ -28,14 +32,14 @@ since = 2023
 # Right To Left, shift content direction for languagues such as Arabic
 rtl = false
 # Specify light/dark colorscheme
-colorScheme = "dark"
+colorScheme = "auto"
 # Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = true
 # Series see also post count
 maxSeeAlsoItems = 5
 
 # Custom CSS
-customCSS = []
+customCSS = ["css/career.css"]
 # Custom SCSS, file path is relative to Hugo's asset folder (default: {your project root}/assets)
 customSCSS = []
 
@@ -45,47 +49,9 @@ customJS = []
 # Custom remote JS files
 customRemoteJS = []
 
-# If you want to use fathom(https://usefathom.com) for analytics, add this section
-# [params.fathomAnalytics]
-# siteID = "ABCDE"
-# serverURL = "analytics.example.com" # Default value is cdn.usefathom.com, overwrite this if you are self-hosting
-
-# If you want to use plausible(https://plausible.io) for analytics, add this section
-# [params.plausibleAnalytics]
-# domain = "example.com"
-# serverURL = "analytics.example.com" # Default value is plausible.io, overwrite this if you are self-hosting or using a custom domain
-# outboundLinksTracking = true
-# fileDownloadsTracking = true
-
-# If you want to use goatcounter(https://goatcounter.com) for analytics, add this section
-# [params.goatCounter]
-# code = "code"
-
-# If you want to use Cloudflare Web Analytics(https://cloudflare.com) for analytics, add this section
-# [params.cloudflare]
-# token = "token"
-
-# If you want to use Matomo(https://matomo.org) for analytics, add this section
-# [params.matomo]
-# siteID = "ABCDE" # Default value is "1", overwrite this if you are cloud-hosting
-# serverURL = "analytics.example.com" # For cloud-hosting, use provided URL, e.g. example.matomo.cloud
-
 # If you want to use Google Tag Manager(https://analytics.google.com/) for analytics, add this section
 [params.googleTagManager]
 id = "G-YC6EG4Q1ZX"
-
-# If you want to use Yandex Metrika(https://metrika.yandex.ru) for analytics, add this section
-# [params.yandexMetrika]
-# id = "gid"
-
-# If you want to use Application Insights(https://azure.com/) for analytics, add this section
-# [params.applicationInsights]
-# connectionString = "connectionString"
-
-# If you want to use microanalytics.io for analytics, add this section
-# [params.microAnalytics]
-# id = "ABCDE"
-# dnt = "false" # respect DNT tracker, "true" by default
 
 # If you want to implement a Content-Security-Policy, add this section
 # [params.csp]
@@ -164,7 +130,7 @@ title = "sh1n00's portfolio"
 
 [languages.en.params]
 author = "sh1n00"
-info = "engineer"
+info = "Game Engineer"
 description = ""
 keywords = ""
 
