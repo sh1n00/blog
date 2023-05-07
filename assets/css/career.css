@@ -1,0 +1,26 @@
+.p {
+    height: 25px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    opacity: 0.8;
+    color: rgb(55 65 81);
+}
+
+.li {
+    margin-top: 15px;
+}
+
+.ul {
+    list-style: none;
+}
+
+.h3 {
+    height:25px;
+    font-size: 17px;
+    line-height: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: normal;
+}
