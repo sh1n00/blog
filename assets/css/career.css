@@ -1,5 +1,4 @@
 .p {
-    height: 25px;
     font-size: 15px;
     line-height: 25px;
     margin-top: 0;
@@ -17,8 +16,7 @@
 }
 
 .h3 {
-    height:25px;
-    font-size: 17px;
+    font-size: 18px;
     line-height: 25px;
     margin-top: 0;
     margin-bottom: 0;
