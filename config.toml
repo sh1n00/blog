@@ -23,16 +23,16 @@ keywords = "developer,personal"
 info = ["ゲームエンジニア"]
 avatarURL = "images/icon.jpg"
 commit = "https://github.com/luizdepra/hugo-coder/tree/"
-# TODO faviconの設定
-# favicon_32 = "/img/favicon.png"
-# favicon_16 = "/img/favicon.png"
+
+favicon_32 = "images/icon.jpg"
+favicon_16 = "images/icon.jpg"
 
 since = 2023
 
 # Right To Left, shift content direction for languagues such as Arabic
 rtl = false
 # Specify light/dark colorscheme
-colorScheme = "auto"
+colorScheme = "light"
 # Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = true
 # Series see also post count
